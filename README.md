@@ -1,3 +1,4 @@
+# Domain-specific multi-scale evaluation of GAN-generated metallographic images
 
 This repository contains the evaluation protocol of the paper
 
@@ -46,7 +47,7 @@ Images derived from the same micrograph are not independent, so each real image 
 
 | Dataset | Images | Units | How the units were identified |
 | --- | --- | --- | --- |
-| inclusions | 490 | 481 | near-duplicate images by pixel similarity |
+| inclusions | 490 | 456 | near-duplicate and overlapping regions, by pixel similarity and phase correlation |
 | corrosion | 382 | 189 | reflected copies by pixel similarity |
 | boriding | 600 | 75 | file name, eight overlapping crops per micrograph |
 | h13 | 1000 | 28 | file name, 36 rotations per micrograph |
